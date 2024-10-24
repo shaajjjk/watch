@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header стилі */
+header {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ffd700;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+header nav ul li a:hover {
+    color: #fff;
+}
+
+/* Тақырыптар және жалпы мәтін стилі */
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+    color: #111;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #555;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #666;
+}
+
+.btn {
+    background-color: #ffd700;
+    color: #111;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #ffcc33;
+}
+
+/* Негізгі бөлімдер */
+section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.offers, .advantages, .featured, .catalog, .reviews, .care {
+    margin-bottom: 40px;
+}
+
+.offer, .watch, .review, .care-block {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Артықшылықтар тізімі */
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding-left: 15px;
+    position: relative;
+}
+
+ul li::before {
+    content: "•";
+    color: #ffd700;
+    position: absolute;
+    left: 0;
+    font-size: 1.3em;
+    line-height: 1.2;
+}
+
+/* Footer стилі */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 4px solid #ffd700;
+    font-size: 1.1em;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* Қосымша стильдер */
+.care-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.care-block {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.care-block h3 {
+    color: #333;
+    font-size: 1.2em;
+}
+
+.care-block p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #555;
+}
